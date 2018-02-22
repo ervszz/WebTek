@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    background-color: gray;
+    background-size: cover;
+}
+
+/* header */
+
+.header {
+    background-color: black;
+    padding: 20px 20px 20px;
+    text-align: center;
+
+}
+
+.header h1 {
+    text-align: center;
+    position: relative;
+    color: gray;
+
+}
+
+/* Catholic Column*/
+
+.Column {
+    float: left;
+    width: 100%;
+    padding: 1% 0% 3%;
+    background-color: darkgrey;
+}
+
+.Column h2 {
+    text-align: center;
+}
+
+.Column a:link {
+    position: relative;
+    right: -235%;
+    padding: 10px 75px 20px;
+    background-color: black;
+    color: grey;
+    padding: 1 1% 1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Column a:hover {
+    background-color: lightslategray;
+    color: aliceblue: ;
+}
+
+.Column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Column li {
+    float: left;
+
+}
+
+.Column:hover {
+    border: 1px solid black;
+    padding: 10% 1% 1;
+    background-color: white;
+    background-size: contain;
+    color: black;
+}
+
+.ColumnPic {
+    text-align: center;
+
+}
+
+.row:after {
+   
+    display: table;
+    clear: both;
+}
+
+/* Iglesia Column*/
+
+.Iglesia {
+    float: left;
+    width: 100%;
+    padding: 1% 0% 3%;
+    background-color: black;
+    color: white;
+}
+
+.Iglesia h2 {
+    text-align: center;
+}
+
+.Iglesia a:link {
+    position: relative;
+    right: -235%;
+    padding: 10px 75px 20px;
+    background-color: dimgray;
+    color: white;
+    padding: 1 1% 1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Iglesia a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Iglesia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+
+.Iglesia li {
+    float: left;
+
+}
+
+.Iglesia:hover {
+    border: 1px solid black;
+    padding: 10% 1% 1;
+    background-color: grey;
+    background-size: contain;
+    color: white;
+}
+
+.IglesiaPic {
+    text-align: center;
+
+}
+
+.Padding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgrey;
+}
+
+
+
+.BottomNavbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.BottomNavbar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.BottomNavbar a:hover {
+  background: gray;
+  color: black;
+}
+
+.BottomNavbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.try ol {
+background-color: gray;
+}
+
+/*Born*/
+.Born {
+    float: left;
+    width: 100%;
+    padding: 1% 0% 3%;
+    background-color: darkgrey;
+}
+
+.Born h2 {
+    text-align: center;
+}
+
+.Born a:link {
+    position: relative;
+    right: -235%;
+    padding: 10px 75px 20px;
+    background-color: black;
+    color: grey;
+    padding: 1 1% 1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Born a:hover {
+    background-color: lightslategray;
+    color: aliceblue: ;
+}
+
+.Born ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Born li {
+    float: left;
+
+}
+
+.Born:hover {
+    border: 1px solid black;
+    padding: 10% 1% 1;
+    background-color: white;
+    background-size: contain;
+    color: black;
+}
+
+.BornPic {
+    text-align: center;
+
+}
+
+#BornA{
+    margin: 0;
+    background: url(../altstyles/Pics/BornBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerBorn {
+   text-align: center;
+}
+
+.headerBorn h1 {
+    text-align: center;
+    position: relative;
+    animation-name: HeaderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+/*Muslim*/
+
+.Muslim {
+    float: left;
+    width: 100%;
+    padding: 1% 0% 3%;
+    background-color: black;
+    color: white;
+}
+
+.Muslim h2 {
+    text-align: center;
+}
+
+.Muslim a:link {
+    position: relative;
+    right: -235%;
+    padding: 10px 75px 20px;
+    background-color: dimgray;
+    color: white;
+    padding: 1 1% 1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Muslim a:hover {
+    background-color: black;
+    color: white;
+}
+
+.Muslim ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Muslim li {
+    float: left;
+
+}
+
+.Muslim:hover {
+    border: 1px solid black;
+    padding: 10% 1% 1;
+    background-color: grey;
+    background-size: contain;
+    color: white;
+}
+
+.MuslimPic {
+    text-align: center;
+
+}
+
+
+#MuslimA{
+    margin: 0;
+    background: url(../altstyles/Pics/MuslimBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerMuslim {
+   text-align: center;
+}
+
+.headerMuslim p {
+    text-align: center;
+    position: relative;
+
+}
+
+.MusPadding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: gray;
+    position: relative;
+
+    
+}
+
+
+
+
+
