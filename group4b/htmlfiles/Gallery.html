@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Cultural Heritage Promotion and Preservation </title>
+<link rel ="stylesheet" type="text/css" href="..//styles/MainPage.css">
+</head>
+
+<body>
+<div class = "header"> <h1> CULTURAL HERITAGE PROMOTION AND PRESERVATION </h1> 
+ <h2> Ferdinand Barangay </h2> </div>
+ <ul>
+  <li><a href="CulturalHeritage.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="History.html">Brief History</a>
+      <a href="Location.html">Barangay's Location</a>
+      <a href="Officials.html">Barangay Officials</a>
+    </div>
+  </li>
+  
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Cultural Heritage</a>
+    <div class="dropdown-content">
+      <a href="Definition.html">Definition</a>
+    </div>
+  </li>
+    
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Images</a>
+    <div class="dropdown-content">
+      <a href="Gallery.html">Pictures</a>
+    </div>
+  </li>
+</ul>
+
+
+<div class = "transbox">
+
+<h1> Image Gallery</h1>
+<div class="gallery">
+    <img id ="myImg" img src="Images/1.jpg" alt = "Islam" width="300" height="200">
+  <div class="desc">A Simple yet meaningful indoor set of an Islam church at the barangay. </div>
+</div>
+<div id="myModal" class="modal">
+	<span class="close>&times;
+</span>
+	<img class = "modal-content" id="img01">
+	<div id ="caption"></div>
+	</div>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <div class="gallery">
+        <img id ="myImg_1" img src="Images/2.jpg" alt = "Islam" width="300" height="200">
+  </a>
+  <div class="desc">As can be seen, the people within the community do not have any bad blood to other religions.</div>
+</div>
+
+<div id="myModal" class="modal">
+	<span class="close>&times;
+</span>
+	<img class = "modal-content" id="img02">
+	<div id ="caption"></div>
+	</div>
+<script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg_1');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <div class="gallery">
+    <img id ="myImg_2" img src="Images/3.jpg" alt = "Islam" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div id="myModal" class="modal">
+	<span class="close>&times;
+</span>
+	<img class = "modal-content" id="img03">
+	<div id ="caption"></div>
+	</div>
+<script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg_2');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+    <div class="gallery">
+  <img id ="myImg_3" img src="Images/4.jpg" alt = "Islam" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+    <div id="myModal" class="modal">
+	<span class="close>&times;
+</span>
+	<img class = "modal-content" id="img04">
+	<div id ="caption"></div>
+	</div>
+<script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg_3');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+</div>
+
+</body>
+</html>

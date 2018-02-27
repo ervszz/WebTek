@@ -1,0 +1,649 @@
+/* header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-variant-alternates: normal;
+
+}
+
+.header h1 {
+    text-align: center;
+    position: relative;
+    animation-name: HeaderAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    font-family: monospace;
+}
+
+.header h2 {
+    text-align: center;
+    position: relative;
+    animation-name: HeaderAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    font-family: monospace;
+}
+
+@-webkit-keyframes HeaderAnimation {
+    0% {
+        color: blue;
+        left: 0px;
+    }
+    25% {
+        color: black;
+        left: 0px;
+
+    }
+    50% {
+        color: blue;
+        left: 500px;
+    }
+    75% {
+        color: green;
+        left: -500px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+
+    }
+}
+
+/* Navigation */
+
+/* Catholic Column*/
+
+.Column {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgrey;
+}
+
+.Column h2 {
+    text-align: center;
+}
+
+.Column a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: pink;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Column a:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.Column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Column li {
+    float: left;
+
+}
+
+.Column:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: lightblue;
+    background-size: contain;
+    color: white;
+}
+
+.ColumnPic {
+    text-align: center;
+
+}
+
+.row:after {
+   
+    display: table;
+    clear: both;
+}
+
+/* Iglesia Column*/
+
+.Iglesia {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: green;
+}
+
+.Iglesia h2 {
+    text-align: center;
+}
+
+.Iglesia a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: yellow;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Iglesia a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.Iglesia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Iglesia li {
+    float: left;
+
+}
+
+.Iglesia:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: red;
+    background-size: contain;
+    color: white;
+}
+
+.IglesiaPic {
+    text-align: center;
+
+}
+
+.Padding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgrey;
+}
+
+
+
+.BottomNavbar {
+  overflow: hidden;
+  background-color: greenyellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.BottomNavbar a {
+  float: left;
+  display: block;
+  color: darkviolet;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.BottomNavbar a:hover {
+  background: pink;
+  color: black;
+}
+
+.BottomNavbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.try ol {
+    position: relative;
+    animation-name: OlAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes OlAnimation {
+    0% {
+        color: gold;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        color: darkseagreen;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        color: lightcoral;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        color: darkorchid;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/*Born*/
+.Born {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: antiquewhite;
+}
+
+.Born h2 {
+    text-align: center;
+}
+
+.Born a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: sandybrown;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Born a:hover {
+    background-color: mediumvioletred;
+    color: white;
+}
+
+.Born ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Born li {
+    float: left;
+
+}
+
+.Born:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: lightyellow;
+    background-size: contain;
+    color: lightpink;
+}
+
+.BornPic {
+    text-align: center;
+
+}
+
+#BornA{
+    margin: 0;
+    background: url(../altstyles/Pics/BornBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerBorn {
+   text-align: center;
+}
+
+.headerBorn h1 {
+    text-align: center;
+    position: relative;
+    animation-name: HeaderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes HeaderAnim {
+    0% {
+        color: yellow;
+        left: 0px;
+    }
+    25% {
+        color: lightcoral;
+        left: 0px;
+
+    }
+    50% {
+        color: mediumseagreen;
+        left: 500px;
+    }
+    75% {
+        color: springgreen;
+        left: -500px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+
+    }
+}
+
+/*Muslim*/
+
+.Muslim {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgoldenrod;
+}
+
+.Muslim h2 {
+    text-align: center;
+}
+
+.Muslim a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: darkseagreen;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Muslim a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.Muslim ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Muslim li {
+    float: left;
+
+}
+
+.Muslim:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: cadetblue;
+    background-size: contain;
+    color: white;
+}
+
+.MuslimPic {
+    text-align: center;
+
+}
+
+
+#MuslimA{
+    margin: 0;
+    background: url(../altstyles/Pics/MuslimBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerMuslim {
+   text-align: center;
+}
+
+.headerMuslim p {
+    text-align: center;
+    position: relative;
+    animation-name: MusHeaderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes MusHeaderAnim {
+    0% {
+        color: yellow;
+        
+    }
+    25% {
+        color: lightcoral;
+  
+
+    }
+    50% {
+        color: mediumseagreen;
+        
+    }
+    75% {
+        color: springgreen;
+        
+    }
+    100% {
+        color: red;
+       
+
+    }
+}
+
+.MusPadding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: lightcyan;
+    position: relative;
+    animation-name: pAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@-webkit-keyframes pAnim {
+    0% {
+        color: mediumvioletred; 
+    }
+    25% {
+        color: hotpink;
+    }
+    50% {
+        color: darkgoldenrod;   
+    }
+    75% {
+        color: springgreen;
+    }
+    100% {
+        color: red;
+    }
+}
+body {
+    margin: 0;
+    background-size: cover;
+	background-color: rgb(0, 242, 215); 
+}
+
+/* header */
+
+.header {
+    /*background-color: rgb(61, 138, 118);">rgb(255, 99, 71)*/
+    background-image: radial-gradient(white, lightblue);
+    padding: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000000;
+}
+.transbox h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: darkred;
+}
+.transbox h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: darkred;
+}
+
+.transbox img {
+    width: 40%;
+    height: auto;
+    align-content: center;
+    opacity: 1.0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(158, 255, 210);">hsl(0, 20%, 50%);
+    font-family: sans-serif;
+}
+
+li {
+    float: left;
+    font-family: sans-serif;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+	font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: slateblue;
+    font-family: sans-serif;
+}
+
+li.dropdown {
+    display: inline-block;
+    font-family: sans-serif
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkviolet;
+    opacity: 0.9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.dropdown-content a:hover {
+    background-color: ghostwhite;
+    font-family: sans-serif}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-family: sans-serif
+}
+
+@keyframes slideshow {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    
+    25% {
+        left: -100%;
+    }
+    
+    45% {
+        left: -100%;
+    }
+    
+    50% {
+        left: -200%;
+    }
+    
+    70% {
+        left: -200%;
+    }
+    
+    75% {
+        left: -300%;
+    }
+    
+    95% {
+        left: -400%;
+    }
+    
+    100% {
+        left: -400%;
+    }
+}
+    
+    #slideshow {
+        overflow:hidden;
+    }
+    #slideshow figure img {
+        width: 20%;
+        float: left;
+    }
+    
+    #slideshow figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slideshow infinite
+    }

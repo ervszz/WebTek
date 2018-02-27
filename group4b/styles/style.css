@@ -1,0 +1,680 @@
+body {
+    margin: 0;
+    background: url("../htmlfiles/Images/Logo.JPG") no-repeat fixed center;
+    background-size: cover;
+}
+
+/* header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px 20px 20px;
+    text-align: center;
+    font-family:serif;
+
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000000;
+}
+.transbox h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: darkred;
+}
+.transbox h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: darkred;
+}
+
+.transbox img {
+    width: 40%;
+    height: auto;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+li {
+    float: left;
+    font-family: sans-serif;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    font-family: sans-serif;
+}
+
+li.dropdown {
+    display: inline-block;
+    font-family: sans-serif
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    opacity: 0.9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.dropdown-content a:hover {
+    background-color: firebrick;
+    font-family: sans-serif}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-family: sans-serif
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg_1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg_1:hover {opacity: 0.7;}
+
+#myImg_2{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg_2:hover {opacity: 0.7;}
+
+#myImg_3{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg_3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px ;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes HeaderAnimation {
+    0% {
+        color: red;
+        left: 0px;
+    }
+    25% {
+        color: yellow;
+        left: 0px;
+
+    }
+    50% {
+        color: blue;
+        left: 500px;
+    }
+    75% {
+        color: green;
+        left: -500px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+
+    }
+}
+
+/* Navigation */
+
+/* Catholic Column*/
+
+.Column {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgrey;
+}
+
+.Column h2 {
+    text-align: center;
+}
+
+.Column a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: pink;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Column a:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.Column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Column li {
+    float: left;
+
+}
+
+.Column:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: lightblue;
+    background-size: contain;
+    color: white;
+}
+
+.ColumnPic {
+    text-align: center;
+
+}
+
+.row:after {
+   
+    display: table;
+    clear: both;
+}
+
+/* Iglesia Column*/
+
+.Iglesia {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: green;
+}
+
+.Iglesia h2 {
+    text-align: center;
+}
+
+.Iglesia a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: yellow;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Iglesia a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.Iglesia ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Iglesia li {
+    float: left;
+
+}
+
+.Iglesia:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: red;
+    background-size: contain;
+    color: white;
+}
+
+.IglesiaPic {
+    text-align: center;
+
+}
+
+.Padding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgrey;
+}
+
+
+
+.BottomNavbar {
+  overflow: hidden;
+  background-color: greenyellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.BottomNavbar a {
+  float: left;
+  display: block;
+  color: darkviolet;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.BottomNavbar a:hover {
+  background: pink;
+  color: black;
+}
+
+.BottomNavbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.try ol {
+    position: relative;
+    animation-name: OlAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes OlAnimation {
+    0% {
+        color: gold;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        color: darkseagreen;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        color: lightcoral;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        color: darkorchid;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+/*Born*/
+.Born {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: antiquewhite;
+}
+
+.Born h2 {
+    text-align: center;
+}
+
+.Born a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: sandybrown;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Born a:hover {
+    background-color: mediumvioletred;
+    color: white;
+}
+
+.Born ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Born li {
+    float: left;
+
+}
+
+.Born:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: lightyellow;
+    background-size: contain;
+    color: lightpink;
+}
+
+.BornPic {
+    text-align: center;
+
+}
+
+#BornA{
+    margin: 0;
+    background: url(../altstyles/Pics/BornBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerBorn {
+   text-align: center;
+}
+
+.headerBorn h1 {
+    text-align: center;
+    position: relative;
+    animation-name: HeaderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes HeaderAnim {
+    0% {
+        color: yellow;
+        left: 0px;
+    }
+    25% {
+        color: lightcoral;
+        left: 0px;
+
+    }
+    50% {
+        color: mediumseagreen;
+        left: 500px;
+    }
+    75% {
+        color: springgreen;
+        left: -500px;
+    }
+    100% {
+        color: red;
+        left: 0px;
+
+    }
+}
+
+/*Muslim*/
+
+.Muslim {
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: darkgoldenrod;
+}
+
+.Muslim h2 {
+    text-align: center;
+}
+
+.Muslim a:link {
+    position: relative;
+    right: -480px;
+    padding: 10px 50px 10px;
+    background-color: darkseagreen;
+    color: white;
+    padding: 25px 75px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid red;
+}
+
+.Muslim a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.Muslim ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.Muslim li {
+    float: left;
+
+}
+
+.Muslim:hover {
+    border: 1px solid black;
+    padding: 25px 0px 75px;
+    background-color: cadetblue;
+    background-size: contain;
+    color: white;
+}
+
+.MuslimPic {
+    text-align: center;
+
+}
+
+
+#MuslimA{
+    margin: 0;
+    background: url(../altstyles/Pics/MuslimBel.JPG) no-repeat fixed center;
+    background-size: cover;
+}
+
+.headerMuslim {
+   text-align: center;
+}
+
+.headerMuslim p {
+    text-align: center;
+    position: relative;
+    animation-name: MusHeaderAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes MusHeaderAnim {
+    0% {
+        color: yellow;
+        
+    }
+    25% {
+        color: lightcoral;
+  
+
+    }
+    50% {
+        color: mediumseagreen;
+        
+    }
+    75% {
+        color: springgreen;
+        
+    }
+    100% {
+        color: red;
+       
+
+    }
+}
+
+.MusPadding {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 75px;
+    background-color: lightcyan;
+    position: relative;
+    animation-name: pAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@-webkit-keyframes pAnim {
+    0% {
+        color: mediumvioletred;
+        
+    }
+    25% {
+        color: hotpink;
+  
+
+    }
+    50% {
+        color: darkgoldenrod;
+        
+    }
+    75% {
+        color: springgreen;
+        
+    }
+    100% {
+        color: red;
+       
+
+    }
+}
+
